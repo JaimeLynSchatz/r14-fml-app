@@ -44,3 +44,26 @@ section {
   @extend .row;
   margin-top: 20px;
   }
+
+// Here be dragons
+html {
+  background-color: black;
+  color: white;
+}
+
+#fml {
+  width: 200px;
+  margin: 0 auto;
+  font-size: 120px;
+  text-align: center;
+}
+
+#fix_my_list {
+  width: 200px;
+  margin: 0 auto;
+  font-size: 28px;
+  text-align: center;
+  position: relative;
+  top: -50px;
+  padding-top: 0;
+}
