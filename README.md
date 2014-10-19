@@ -1,12 +1,12 @@
-Secret Inlet 5715
-================
+Secret Inlet 5715 (fml)
+=======================
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 fml.success? ? humblebrag : lame_excuse
 ---------------------------------------
 fml was written from ~ 11pm - 4am (UTC-7) on Friday, October 17th and Saturday, October 18th for the Rails Rumble hackathon.
-Proceed with caution and a generous dose of sympathy for this bleary-eyed coder.
+Proceed with caution and a generous dose of sympathy for this bleary-eyed and overly ambitious coder.
 
 Getting Started
 ---------------
