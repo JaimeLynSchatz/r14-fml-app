@@ -168,7 +168,7 @@ word-break: break-word;
 display: none;
 }
 
-/* bug hunting */
+/* radical change */
 body {
   background-color: black;
   color: white;
@@ -180,4 +180,8 @@ body {
 
 .dark-print {
   color: black;
+}
+
+.dark-page {
+  background-color: black;
 }
