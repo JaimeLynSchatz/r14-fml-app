@@ -32,6 +32,8 @@ group :development, :test do
 end
 group :production do
   gem 'pg'
+end
+group :production, :staging do # add staging group, attempted workaround for no css in Heroku
   gem 'rails_12factor'
 end
 group :test do
