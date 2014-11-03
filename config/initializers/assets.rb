@@ -7,7 +7,7 @@ Rails.application.config.assets.version = '1.0'
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )
 
-config.cache_classes = true
-config.serve_static_assets = true
-config.assets.compile = true
-config.assets.digest = true
+Rails.application.config.cache_classes = true
+Rails.application.config.serve_static_assets = true
+Rails.application.config.assets.compile = true
+Rails.application.config.assets.digest = true
