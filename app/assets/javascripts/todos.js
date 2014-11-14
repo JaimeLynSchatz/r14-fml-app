@@ -3,6 +3,7 @@ var EnterKey = 13;
 $.fn.isBound = function(type, fn) {
     var data = this.data('events')[type];
 
+    console.log("you're in the isBound function");
     if (data === undefined || data.length === 0) {
         return false;
     }
@@ -12,6 +13,7 @@ $.fn.isBound = function(type, fn) {
 
 $(document).ready(function() {
 		function runBind() {
+			console.log("you're in the runBind function");
         $('.destroy').on('click', function(e) {
           $currentListItem = $(this).closest('li');
 
