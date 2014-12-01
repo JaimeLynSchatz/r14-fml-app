@@ -10,10 +10,14 @@
   </head>
   <body>
     <header>
-      <%= render 'layouts/navigation' %>
+      <!-- <%= render 'layouts/navigation' %> -->
+      <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+          <a class="navbar-brand" href="#">FML</a>
+          <%= link_to 'Code', 'https://github.com/JaimeLynSchatz/r-14-fml-app.git', :class => 'navbar-brand', :target => '_blank' %>
     </header>
     <main role="main">
-       <%= render 'layouts/messages' %>
+       <!-- <%= render 'layouts/messages' %> -->
        <%= yield %>
     </main>
     
