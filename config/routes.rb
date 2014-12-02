@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root to: 'todos/index'
+  get 'todos/index'
 
   match "todos/delete" => "todos#delete", :via => [:delete], :as => :delete
 
